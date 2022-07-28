@@ -1,0 +1,34 @@
+table {
+    margin: 0 auto;
+    width: 70%;
+    height: 400px;
+}
+
+table,
+th,
+td {
+    border: 0;
+    border-collapse: collapse;
+}
+
+thead {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(18, 170, 18);
+    color: white;
+}
+
+tbody {
+    background-color: rgb(237, 226, 226);
+    text-align: center;
+
+}
+
+.week_days {
+    background-color: rgb(158, 151, 151);
+    color: black;
+}
+
+.month {
+    font-size: xx-large;
+}

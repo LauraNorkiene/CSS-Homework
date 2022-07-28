@@ -1,0 +1,92 @@
+header {
+    margin: 0 auto;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    text-indent: 45px;
+    width: 40%;
+
+}
+
+li {
+    list-style: none;
+}
+
+.blue {
+    color: white;
+    height: 400px;
+    background-color: rgb(9, 195, 241);
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.button {
+    color: white;
+    background-color: red;
+    border-radius: 83px;
+    border: 0;
+    width: 8%;
+    height: 30px;
+}
+
+.boxes {
+    margin: 0 auto;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    position: absolute;
+    top: 390px;
+    background-color: white;
+    width: 16%;
+    height: 280px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.box2 {
+
+    position: absolute;
+    bottom: 50px;
+    background-color: white;
+    width: 16%;
+    height: 280px;
+    text-align: center;
+    top: 390px;
+    left: 650px;
+    padding: 10px;
+}
+
+.box3 {
+    position: absolute;
+    bottom: 50px;
+    background-color: white;
+    width: 16%;
+    height: 280px;
+    text-align: center;
+    top: 390px;
+    left: 950px;
+    padding: 10px;
+}
+
+
+.white {
+    width: 100%;
+    height: 205px;
+    background-color: rgb(248, 241, 241);
+}

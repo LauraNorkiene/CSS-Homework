@@ -1,0 +1,107 @@
+main {
+    background-color: brown;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.blue1,
+.blue2 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.blue2 {
+    bottom: 70px;
+    left: 180px;
+}
+
+.blue1 {
+    bottom: 20px;
+    left: 130px;
+}
+
+.grey {
+    background-color: grey;
+    width: 40%;
+    height: 375px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.green {
+    margin-left: 10px;
+    background-color: yellowgreen;
+    width: 70px;
+    height: 70px;
+}
+
+.pink1,
+.pink2 {
+    position: absolute;
+    background-color: purple;
+    width: 110px;
+    height: 35px;
+    border-radius: 40%;
+}
+
+.pink3,
+.pink4 {
+    position: absolute;
+    background-color: purple;
+    height: 110px;
+    width: 35px;
+    border-radius: 40%;
+}
+
+.pink1 {
+    bottom: 145px;
+    left: 580px;
+}
+
+.pink2 {
+    bottom: 145px;
+    left: 770px;
+}
+
+.pink3 {
+    top: 90px;
+    left: 710px;
+}
+
+.pink4 {
+    bottom: 10px;
+    left: 710px;
+}
+
+.pink_circle {
+    position: absolute;
+    right: 750px;
+    bottom: 120px;
+    background-color: purple;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.orange {
+    position: absolute;
+    bottom: 135px;
+    right: 765px;
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+}
